@@ -5,10 +5,11 @@
         .silex-runtime .paged-element {
             transition: all .15s ease-out;
             opacity: 0;
-            display: block !important;
+            display: none;
         }
         .silex-runtime .paged-element.paged-element-visible {
             opacity: 1;
+            display: block;
         }
         
         /* header */
@@ -129,11 +130,15 @@
         .silex-id-1439554967184-59 {
             height: 136px; 
             width: 361px; 
-            top: 16px; 
+            top: 15px; 
             left: 4px; 
             position: absolute; 
             box-sizing: content-box; 
             background-color: transparent; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
         }
         .silex-id-1440908351594-6 {
             height: 20px; 
@@ -391,35 +396,6 @@
             border-bottom-color: rgb(255, 255, 255); 
             border-left-color: rgb(255, 255, 255); 
         }
-        .silex-id-1439554961128-0 {
-            height: 1000px; 
-            width: 560px; 
-            top: 152px; 
-            left: 199px; 
-            position: absolute; 
-            box-sizing: content-box; 
-            background-color: transparent; 
-            border-top-width: 3px; 
-            border-right-width: 3px; 
-            border-bottom-width: 3px; 
-            border-left-width: 3px; 
-        }
-        .silex-id-1439554966458-52 {
-            height: 232px; 
-            width: 960px; 
-            top: 153px; 
-            left: 0px; 
-            position: absolute; 
-            box-sizing: content-box; 
-            background-color: rgb(51, 44, 44); 
-            background-image: url('../assets/show_action_shot.jpg'); 
-            background-attachment: scroll; 
-            background-repeat-x: no-repeat; 
-            background-repeat-y: no-repeat; 
-            background-position-x: 50%; 
-            background-position-y: 0%; 
-            background-size: contain; 
-        }
         .silex-id-1441054376700-5 {
             height: 1680px; 
             width: 760px; 
@@ -545,6 +521,25 @@
             left: 13px; 
             position: absolute; 
             box-sizing: content-box; 
+        }
+        .silex-id-1441512949486-21 {
+            height: 232px; 
+            width: 960px; 
+            top: 153px; 
+            left: 0px; 
+        }
+        .silex-id-1439554961128-0 {
+            height: 957px; 
+            width: 560px; 
+            top: 152px; 
+            left: 199px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            border-top-width: 3px; 
+            border-right-width: 3px; 
+            border-bottom-width: 3px; 
+            border-left-width: 3px; 
         }
         .silex-id-1439554965536-43 {
             height: 230px; 
