@@ -108,7 +108,7 @@
         .silex-id-1439554967795-65 {
             top: 5px; 
             left: 168px; 
-            width: 958px; 
+            width: 792px; 
             height: 707px; 
             box-sizing: content-box; 
             background-color: transparent; 
@@ -401,6 +401,12 @@
             top: 200px; 
             left: 100px; 
             background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1441512949486-21 {
+            height: 232px; 
+            width: 960px; 
+            top: 153px; 
+            left: 0px; 
         }
         .silex-id-1439554961128-0 {
             height: 957px; 
@@ -723,19 +729,37 @@
             position: absolute; 
             box-sizing: content-box; 
         }
-        .silex-id-1441512949486-21 {
-            height: 232px; 
-            width: 960px; 
-            top: 153px; 
-            left: 0px; 
-        }
         .silex-id-1441527810250-18 {
             height: 23px; 
             width: 958px; 
-            top: 681px; 
-            left: 168px; 
+            top: 43px; 
+            left: 0px; 
             position: absolute; 
             box-sizing: content-box; 
             background-color: transparent; 
+        }
+        .silex-id-1439554965536-43 {
+            height: 230px; 
+            width: 950px; 
+            top: -182px; 
+            left: -177px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            background-size: contain; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+            background-image: url('../assets/show_action_shot.jpg'); 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-attachment: scroll; 
+            background-repeat-x: no-repeat; 
+            background-repeat-y: no-repeat; 
+            border-top-left-radius: 3px; 
+            border-top-right-radius: 3px; 
+            border-bottom-right-radius: 3px; 
+            border-bottom-left-radius: 3px; 
         }
     
