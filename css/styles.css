@@ -1,0 +1,573 @@
+
+        @import url('http://fonts.googleapis.com/css?family=Roboto:100');
+        
+        /* transition */
+        .silex-runtime .paged-element {
+            transition: all .15s ease-out;
+            opacity: 0;
+            display: block !important;
+        }
+        .silex-runtime .paged-element.paged-element-visible {
+            opacity: 1;
+        }
+        
+        /* header */
+        .logo .title {
+            color: #FF9900;
+        }
+        .logo .normal {
+            color: #FEFFFD;
+            font-family: 'Roboto', sans-serif;
+            font-size: 60px;
+            line-height: 25px;
+            text-transform: uppercase;
+        }
+        .nav .normal {
+            color: #FEFFFD;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            line-height: 45px;
+            text-transform: uppercase;
+            z-index: 1;
+        }
+        .nav-mark {
+            border-bottom: 1px solid #332c2c;
+            transition: border .2s ease-out, background-color .2s ease-out;
+        }
+        .nav-mark:hover {
+            border-bottom: 1px solid #500000;
+        }
+        .nav-mark.page-link-active {
+            background-color: #500000 !important;
+        }
+        /* home */
+        .sub-nav.page-link-active {
+            width: 250px !important;
+            box-shadow: 0 1px 10px black;
+        }
+        .sub-nav {
+            transition: all .15s ease-out;
+            color: #FEFFFD;
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            line-height: 5px;
+            text-transform: uppercase;
+            z-index: 1;
+        }
+        .sub-nav .heading1 {
+            font-size: 40px;
+        }
+        .normal, .heading1 {
+            color: #FEFFFD;
+            font-weight: 200;
+            line-height: 20px;
+        }
+        .white-bg .heading2,
+        .white-bg .normal {
+            color: black;
+        }
+        .white-bg .heading2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+            font-size: 40px;
+            text-transform: capitalize;
+            line-height: 0px;
+        }
+        .white-bg .heading2:first-letter {
+            background-color: #FF9900;
+            color: #FEFFFD;
+            padding: 0 10px;
+            margin-right: 2px;
+        }
+        .white-bg .normal {
+            font-size: 15px;
+            font-family: Arial, sans-serif;
+            line-height: 20px;
+        }
+        .button-read-more .normal {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+            text-transform: capitalize;
+            line-height: 30px;
+        }
+    
+        .silex-id-1439554967896-66 {
+            left: 0px; 
+            top: 0px; 
+            background-color: rgb(51, 44, 44); 
+            border-top-left-radius: 3px; 
+            border-top-right-radius: 3px; 
+            border-bottom-right-radius: 3px; 
+            border-bottom-left-radius: 3px; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+        }
+        .silex-id-1439554967795-65 {
+            top: 5px; 
+            left: 56px; 
+            width: 958px; 
+            height: 1533px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            background-size: cover; 
+            background-position-x: 50%; 
+            background-position-y: 0%; 
+            background-repeat-x: no-repeat; 
+            background-repeat-y: no-repeat; 
+        }
+        .silex-id-1439554967693-64 {
+            height: 141px; 
+            width: 960px; 
+            top: 0px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: rgb(51, 44, 44); 
+        }
+        .silex-id-1439554967184-59 {
+            height: 136px; 
+            width: 361px; 
+            top: 16px; 
+            left: 4px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1440908351594-6 {
+            height: 20px; 
+            width: 354px; 
+            top: 126px; 
+            left: 7px; 
+        }
+        .silex-id-1441051084990-0 {
+            height: 56px; 
+            width: 69px; 
+            top: 71px; 
+            left: 162px; 
+        }
+        .silex-id-1441510518545-5 {
+            height: 42px; 
+            width: 701px; 
+            top: 84px; 
+            left: 242px; 
+            background-color: transparent; 
+        }
+        .silex-id-1439554967593-63 {
+            height: 40px; 
+            width: 80px; 
+            top: 0px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1439554967492-62 {
+            height: 38px; 
+            width: 54px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554967390-61 {
+            height: 40px; 
+            width: 86px; 
+            top: 0px; 
+            left: 93px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554967286-60 {
+            height: 38px; 
+            width: 60px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554966665-54 {
+            height: 40px; 
+            width: 94px; 
+            top: 0px; 
+            left: 192px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554966563-53 {
+            height: 38px; 
+            width: 68px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554967079-58 {
+            height: 40px; 
+            width: 67px; 
+            top: 0px; 
+            left: 299px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554966975-57 {
+            height: 38px; 
+            width: 41px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1440968757638-5 {
+            height: 39.888888835907px; 
+            width: 88px; 
+            top: 0px; 
+            left: 379px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1440968757639-6 {
+            height: 38px; 
+            width: 61px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554966870-56 {
+            height: 40px; 
+            width: 97px; 
+            top: 0px; 
+            left: 480px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554966767-55 {
+            height: 38px; 
+            width: 70px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1440968215455-3 {
+            height: 40px; 
+            width: 110px; 
+            top: 0px; 
+            left: 590px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1440968215456-4 {
+            height: 38px; 
+            width: 84px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554963707-25 {
+            height: 215px; 
+            width: 280px; 
+            top: 1086px; 
+            left: 25px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1439554963605-24 {
+            height: 147px; 
+            width: 276px; 
+            top: 14px; 
+            left: 14px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554963502-23 {
+            height: 34px; 
+            width: 113px; 
+            top: 166px; 
+            left: 16px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: rgb(255, 153, 0); 
+        }
+        .silex-id-1439554963400-22 {
+            height: 215px; 
+            width: 280px; 
+            top: 1086px; 
+            left: 332px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1439554963298-21 {
+            height: 147px; 
+            width: 276px; 
+            top: 14px; 
+            left: 14px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554963198-20 {
+            height: 34px; 
+            width: 113px; 
+            top: 166px; 
+            left: 16px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: rgb(102, 88, 71); 
+        }
+        .silex-id-1439554963096-19 {
+            height: 215px; 
+            width: 280px; 
+            top: 1086px; 
+            left: 639px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1439554962995-18 {
+            height: 147px; 
+            width: 276px; 
+            top: 14px; 
+            left: 14px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554962893-17 {
+            height: 34px; 
+            width: 113px; 
+            top: 166px; 
+            left: 16px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: rgb(61, 54, 45); 
+        }
+        .silex-id-1439554962792-16 {
+            height: 50px; 
+            width: 600px; 
+            top: 1472px; 
+            left: 180px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1439554961635-5 {
+            height: 189px; 
+            width: 817px; 
+            top: 151px; 
+            left: 2px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554961432-3 {
+            height: 189px; 
+            width: 817px; 
+            top: 150px; 
+            left: 2px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554961331-2 {
+            height: 1133px; 
+            width: 950px; 
+            top: 150px; 
+            left: 2px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            border-top-width: 1px; 
+            border-right-width: 1px; 
+            border-bottom-width: 1px; 
+            border-left-width: 1px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(255, 255, 255); 
+            border-right-color: rgb(255, 255, 255); 
+            border-bottom-color: rgb(255, 255, 255); 
+            border-left-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439554961128-0 {
+            height: 1000px; 
+            width: 560px; 
+            top: 152px; 
+            left: 199px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            border-top-width: 3px; 
+            border-right-width: 3px; 
+            border-bottom-width: 3px; 
+            border-left-width: 3px; 
+        }
+        .silex-id-1439554966458-52 {
+            height: 232px; 
+            width: 960px; 
+            top: 153px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: rgb(51, 44, 44); 
+            background-image: url('../assets/show_action_shot.jpg'); 
+            background-attachment: scroll; 
+            background-repeat-x: no-repeat; 
+            background-repeat-y: no-repeat; 
+            background-position-x: 50%; 
+            background-position-y: 0%; 
+            background-size: contain; 
+        }
+        .silex-id-1441054376700-5 {
+            height: 1680px; 
+            width: 760px; 
+            top: 164px; 
+            left: 100px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1441510865072-6 {
+            height: 42px; 
+            width: 701px; 
+            top: 1416px; 
+            left: 29px; 
+            background-color: transparent; 
+        }
+        .silex-id-1441510865073-7 {
+            height: 40px; 
+            width: 80px; 
+            top: 0px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865074-8 {
+            height: 38px; 
+            width: 54px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865074-9 {
+            height: 40px; 
+            width: 86px; 
+            top: 0px; 
+            left: 93px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865074-10 {
+            height: 38px; 
+            width: 60px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865074-11 {
+            height: 40px; 
+            width: 94px; 
+            top: 0px; 
+            left: 192px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865075-12 {
+            height: 38px; 
+            width: 68px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865075-13 {
+            height: 40px; 
+            width: 67px; 
+            top: 0px; 
+            left: 299px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865075-14 {
+            height: 38px; 
+            width: 41px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865076-15 {
+            height: 39.888888835907px; 
+            width: 88px; 
+            top: 0px; 
+            left: 379px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865076-16 {
+            height: 38px; 
+            width: 61px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865076-17 {
+            height: 40px; 
+            width: 97px; 
+            top: 0px; 
+            left: 480px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865076-18 {
+            height: 38px; 
+            width: 70px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865077-19 {
+            height: 40px; 
+            width: 110px; 
+            top: 0px; 
+            left: 590px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1441510865077-20 {
+            height: 38px; 
+            width: 84px; 
+            top: -2px; 
+            left: 13px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1439554965536-43 {
+            height: 230px; 
+            width: 950px; 
+            top: -182px; 
+            left: -177px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+            background-size: contain; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+            background-image: url('../assets/show_action_shot.jpg'); 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-attachment: scroll; 
+            background-repeat-x: no-repeat; 
+            background-repeat-y: no-repeat; 
+            border-top-left-radius: 3px; 
+            border-top-right-radius: 3px; 
+            border-bottom-right-radius: 3px; 
+            border-bottom-left-radius: 3px; 
+        }
+    
