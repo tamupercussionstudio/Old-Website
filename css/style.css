@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: rgba(255,255,255,.9);
 }
 
 p {
@@ -70,4 +70,7 @@ footer.page-footer {
 
 .my-blue {
   color: #104554;
+}
+.my-maroon{
+  background: #500000;
 }
