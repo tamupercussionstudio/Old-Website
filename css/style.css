@@ -57,20 +57,32 @@ footer.page-footer {
 }
 
 .navbar {
-  background: linear-gradient(#104554, #113a4a);
+  background: linear-gradient(#565252, #332c2c);
 }
 
 .my-grey-bg {
-  background: #717071;
+  background: #565252;
 }
 
 .my-grey-bg:hover {
-  background: #104554;
+  background: #500000;
 }
 
 .my-blue {
-  color: #104554;
+  color: #565252;
 }
 .my-maroon{
   background: #500000;
+}
+
+nav ul li.active {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.clickable-icon {
+  color: #565252;
+}
+
+.clickable-icon:hover {
+  color: #500000;
 }

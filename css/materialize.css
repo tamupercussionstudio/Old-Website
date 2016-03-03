@@ -7838,7 +7838,7 @@ small {
 }
 
 .card .card-content .card-title {
-  line-height: 48px;
+  line-height: 56x;
 }
 
 .card .card-action {
@@ -7847,7 +7847,7 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
-  color: #ffab40;
+  color: #717071;
   margin-right: 20px;
   transition: color .3s ease;
   text-transform: uppercase;
