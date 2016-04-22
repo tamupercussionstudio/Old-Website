@@ -14,9 +14,13 @@
 
 <nav class="navbar z-depth-2" role="navigation">
     <div class="nav-wrapper container">
-        <a id="logo-container" href="index.html" class="brand-logo"><img src="assets/logo.png" height="64px" width="650px" style="padding: 12px"></a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="white-text material-icons">menu</i></a>
+        <a style="height: inherit" id="logo-container" href="index.html" class="brand-logo">
+            <img class="hide-on-small-only" src="assets/logo.png" height="64px" width="650px" style="padding: 12px">
+            <img class="hide-on-med-and-up" src="assets/oldlogo.png" style="height: inherit">
+        </a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="events.html">EVENTS</a></li>
             <li class="active"><a href="#">JOIN</a></li>
@@ -25,11 +29,21 @@
             <li><a href="contact.html">CONTACT</a></li>
 
         </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="#">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+            <li class="active"><a href="#">JOIN</a></li>
+            <li><a href="videos.html">VIDEOS</a></li>
+            <li><a href="donate.html">DONATE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
     </div>
 </nav>
 
 <div class="row">
-    <div class="col card s6 offset-s3">
+    <div class="col card s12 m6 offset-m3">
         <div class="card-content">
             <span class="card-title">Audition Information</span>
             <p><br>Percussion Studio Auditions are held around the second week of each Fall and Spring semester.<br>
@@ -53,6 +67,7 @@
     </div>
 </div>
 
+<!--Why are you looking at my foot?-->
 <footer class="my-maroon">
     <div class="container">
         <div class="row">
@@ -63,19 +78,25 @@
 
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">Settings</h5>
+                <h5 class="white-text">Facebook</h5>
                 <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" target="_blank" href="https://www.facebook.com/PercussionStudio/">Visit our Facebook Page</a></li>
                 </ul>
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">Connect</h5>
+                <h5 class="white-text">Instagram</h5>
                 <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" target="_blank" href="https://www.instagram.com/tamupercussionstudio/">Check out our Instagram</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </footer>
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
 </body>
 </html>

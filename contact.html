@@ -14,7 +14,11 @@
 
 <nav class="navbar z-depth-2" role="navigation">
     <div class="nav-wrapper container">
-        <a id="logo-container" href="index.html" class="brand-logo"><img src="assets/logo.png" height="64px" width="650px" style="padding: 12px"></a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="white-text material-icons">menu</i></a>
+        <a style="height: inherit" id="logo-container" href="index.html" class="brand-logo">
+            <img class="hide-on-small-only" src="assets/logo.png" height="64px" width="650px" style="padding: 12px">
+            <img class="hide-on-med-and-up" src="assets/oldlogo.png" style="height: inherit">
+        </a>
         <ul class="right hide-on-med-and-down">
             <li><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
@@ -25,13 +29,23 @@
             <li class="active"><a href="#">CONTACT</a></li>
 
         </ul>
-    </div>
 
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+            <li><a href="join.html">JOIN</a></li>
+            <li><a href="videos.html">VIDEOS</a></li>
+            <li><a href="donate.html">DONATE</a></li>
+            <li class="active"><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
 </nav>
+
 <div class="container">
     <div class="section">
         <div class="row">
-                <iframe class="col s6 offset-s3" src="https://docs.google.com/forms/d/1Kcz4CI76Xioc-Sl4WwgM9qks1f0ZdyZQ66IVXu24oCY/viewform?embedded=true" width="760" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                <iframe class="col s12 m6 offset-m3" src="https://docs.google.com/forms/d/1Kcz4CI76Xioc-Sl4WwgM9qks1f0ZdyZQ66IVXu24oCY/viewform?embedded=true" width="760" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
     </div>
     <div class="section">
@@ -74,48 +88,6 @@
     </div>
 </div>
 
-<!--<div class="container">
-    <div class="section">
-
-
-        <div class="row">
-            <div class="col s12 m3">
-                <div class="icon-block">
-                    <h2 class="center"><img src="assets/nathanprofile.jpg" height="64px" width="64px" class="circle"></a></h2>
-                    <h5 class="center">Treasurer</h5>
-                    <p class="center light">Nathan Dunkelburger <br> nathandunkelburger@tamu.edu</p>
-                </div>
-            </div>
-
-            <div class="col s12 m3">
-                <div class="icon-block">
-                    <h2 class="center"><img src="assets/courtneyprofile.jpg" height="64px" width="64px" class="circle"></a></h2>
-                    <h5 class="center">Event Coordinator</h5>
-                    <p class="center light">Courtney Avra <br> avra101@tamu.edu</p>
-                </div>
-            </div>
-
-            <div class="col s12 m3">
-                <div class="icon-block">
-                    <h2 class="center"><img src="assets/emmaprofile.jpg" height="64px" width="64px" class="circle"></a></h2>
-                    <h5 class="center">Event Coordinator</h5>
-                    <p class="center light">Emma Jones <br> emmaj94@tamu.edu</p>
-                </div>
-            </div>
-
-            <div class="col s12 m3">
-                <div class="icon-block">
-                    <h2 class="center"><img src="assets/laurenprofile.jpg" height="64px" width="64px" class="circle"></a></h2>
-                    <h5 class="center">Web Master</h5>
-                    <p class="center light">Lauren Kleckner <br> laurkleck@tamu.edu</p>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-</div>-->
-
 <div class="container">
     <div class="section">
 
@@ -141,6 +113,7 @@
     </div>
 </div>
 
+<!--Why are you looking at my foot?-->
 <footer class="my-maroon">
     <div class="container">
         <div class="row">
@@ -151,19 +124,25 @@
 
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">Settings</h5>
+                <h5 class="white-text">Facebook</h5>
                 <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" target="_blank" href="https://www.facebook.com/PercussionStudio/">Visit our Facebook Page</a></li>
                 </ul>
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">Connect</h5>
+                <h5 class="white-text">Instagram</h5>
                 <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" target="_blank" href="https://www.instagram.com/tamupercussionstudio/">Check out our Instagram</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </footer>
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
 </body>
 </html>
