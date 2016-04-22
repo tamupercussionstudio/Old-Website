@@ -68,7 +68,7 @@ footer.page-footer {
   background: #500000;
 }
 
-.my-blue {
+.my-light-grey {
   color: #565252;
 }
 .my-maroon{
@@ -83,6 +83,6 @@ nav ul li.active {
   color: #565252;
 }
 
-.clickable-icon:hover {
+.clickable-icon :hover {
   color: #500000;
 }
