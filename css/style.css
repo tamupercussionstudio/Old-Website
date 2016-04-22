@@ -83,6 +83,6 @@ nav ul li.active {
   color: #565252;
 }
 
-.clickable-icon :hover {
-  color: #500000;
+.clickable-icon:hover {
+  color: #500000 !important;
 }
