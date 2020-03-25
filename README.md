@@ -1,4 +1,4 @@
 # percussionstudio.github.io
-The website for percussion studio
+The former website for Percussion Studio
 
-This contains the website for percussion studio the only percussion organization at Texas A&M University.
+This contains the former website for Percussion Studio, the only percussion organization at Texas A&M University.
